@@ -43,7 +43,6 @@ fun HomeScreen(
 
             Spacer(Modifier.height(32.dp))
 
-            // Botones
             Button(
                 onClick = onPlayClick,
                 modifier = Modifier
