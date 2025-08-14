@@ -16,7 +16,7 @@ import androidx.compose.ui.unit.sp
 import com.unisabana.wordle.presentation.components.Cell
 import com.unisabana.wordle.presentation.components.CellType
 
-/* ======================= HOME ======================= */
+
 
 @Composable
 fun HomeScreen(
