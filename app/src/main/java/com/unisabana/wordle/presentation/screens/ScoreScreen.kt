@@ -65,7 +65,7 @@ fun ScoreScreen(
                 .padding(inner)
                 .fillMaxSize()
                 .background(bg),
-            contentAlignment = Alignment.Center // 🔹 Centrado vertical y horizontal
+            contentAlignment = Alignment.Center
         ) {
             Column(
                 horizontalAlignment = Alignment.CenterHorizontally
@@ -86,7 +86,6 @@ fun ScoreScreen(
     }
 }
 
-/* ---------- Preview con datos de ejemplo ---------- */
 
 @Preview(showBackground = true, backgroundColor = 0xFF121213)
 @Composable
