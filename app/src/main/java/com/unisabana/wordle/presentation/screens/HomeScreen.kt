@@ -17,7 +17,6 @@ import com.unisabana.wordle.presentation.components.Cell
 import com.unisabana.wordle.presentation.components.CellType
 
 
-
 @Composable
 fun HomeScreen(
     onPlayClick: () -> Unit = {},
