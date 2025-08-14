@@ -81,8 +81,12 @@ fun GameScreen(){
 
                 Board(rows = demo)
             }
+
     }
+
 }
+
+
 
 @Preview(showBackground = true)
 @Composable
