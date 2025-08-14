@@ -154,7 +154,7 @@ private fun DeleteKey(modifier: Modifier = Modifier) {
             contentColor = Color.White
         )
     ) {
-        Text("⌫") 
+        Text("⌫")
     }
 }
 
