@@ -1,7 +1,8 @@
-package com.unisabana.wordle.presentation.screens
+package com.unisabana.wordle.presentation.screens.game
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -137,7 +138,7 @@ private fun KeyButton(text: String, modifier: Modifier = Modifier) {
             containerColor = Color(0xFF3A3A3C),
             contentColor = Color.White
         ),
-        contentPadding = androidx.compose.foundation.layout.PaddingValues(0.dp)
+        contentPadding = PaddingValues(0.dp)
     ) {
         Text(text)
     }
